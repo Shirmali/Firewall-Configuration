@@ -22,5 +22,6 @@ This project demonstrates how to configure a host-based firewall using **UFW (Un
 ```bash
 sudo apt update
 sudo apt install ufw nmap netcat-openbsd -y
+---
 
 ✅ Note: Used netcat-openbsd instead of netcat to avoid the "no installation candidate" error.
