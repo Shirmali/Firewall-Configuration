@@ -19,7 +19,7 @@ This project demonstrates how to configure a host-based firewall using **UFW (Un
 ## 🧱 Firewall Configuration Steps
 
 ### 1. Install Required Tools
-```bash
+
 sudo apt update
 sudo apt install ufw nmap netcat-openbsd -y
 ---
