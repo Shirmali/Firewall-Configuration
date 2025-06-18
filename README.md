@@ -25,3 +25,19 @@ sudo apt install ufw nmap netcat-openbsd -y
 ---
 
 ✅ Note: Used netcat-openbsd instead of netcat to avoid the "no installation candidate" error.
+
+# Step 2: Set Default Policies
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Step 3: Enable UFW
+sudo ufw enable
+
+# Step 4: Allow Essential Services
+sudo ufw allow 22    # SSH
+sudo ufw allow 80    # HTTP
+sudo ufw allow 443   # HTTPS
+
+# Step 5: Deny Unsecure/Unused Ports
+sudo ufw deny 21     # Block FTP
+
