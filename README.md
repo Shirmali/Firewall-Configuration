@@ -197,20 +197,6 @@ sudo systemctl start ssh
 
 ---
 
-## 📂 Folder Structure
 
-```
-Firewall-Configuration/
-├── README.md
-└── screenshots/
-    ├── default_policy.png
-    ├── ufw_enabled.png
-    ├── allowed_services.png
-    ├── blocked_ftp.png
-    ├── port_test_results.png
-    └── ss_output.png
-```
-
----
 
 
