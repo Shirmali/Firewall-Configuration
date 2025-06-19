@@ -78,7 +78,7 @@ sudo ufw default allow outgoing
 ```
 
 📸 **Screenshot:**
-![Default Policy](screenshots/default_policy.png)
+![Default Policy](screenshots/Default-Policy-Set.png)
 
 ---
 
