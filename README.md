@@ -77,7 +77,8 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 
-📸 **Screenshot:**
+📸 **1.1:**
+
 ![Default Policy](https://github.com/Shirmali/Firewall-Configuration/blob/main/Default-Policy-Set.png?raw=true)
 
 ---
@@ -90,8 +91,9 @@ Enable UFW so all configurations take effect:
 sudo ufw enable
 ```
 
-📸 **Screenshot:**
-![UFW Enabled](screenshots/ufw_enabled.png)
+📸 **1.2:**
+
+![UFW Enabled](https://github.com/Shirmali/Firewall-Configuration/blob/main/Enable%20firewall%20&%20rules.png?raw=true)
 
 ---
 
@@ -111,8 +113,9 @@ sudo ufw allow 80    # HTTP
 sudo ufw allow 443   # HTTPS
 ```
 
-📸 **Screenshot:**
-![Allowed Services](screenshots/allowed_services.png)
+📸 **1.3:**
+
+![Allowed Services](https://github.com/Shirmali/Firewall-Configuration/blob/main/Allowed%20rules.png?raw=true)
 
 ---
 
@@ -124,8 +127,9 @@ We explicitly block FTP:
 sudo ufw deny 21     # FTP
 ```
 
-📸 **Screenshot:**
-![Blocked FTP](screenshots/blocked_ftp.png)
+📸 **1.4:**
+
+![Blocked FTP](https://github.com/Shirmali/Firewall-Configuration/blob/main/FTP%20block%20rule.png?raw=true)
 
 ---
 
@@ -147,8 +151,9 @@ nc -zv localhost 21
 
 ❌ Expected: *Connection refused*
 
-📸 **Screenshot:**
-![Test Results](screenshots/port_test_results.png)
+📸 **2.1:**
+
+![Test Results](https://github.com/Shirmali/Firewall-Configuration/blob/main/Port%20Scan%20After%20Rules.png?raw=true)
 
 ---
 
