@@ -6,7 +6,7 @@ In the realm of cybersecurity, maintaining a robust defense against unauthorized
 
 This project walks you through configuring a host-based firewall using UFW (Uncomplicated Firewall) on a Linux system, reinforcing one of the foundational security layers in endpoint protection.
 
-This project is designed to help cybersecurity students and enthusiasts:
+This project is designed to help:
 
 🛡️ Understand how a host-based firewall contributes to layered security.
 
@@ -20,23 +20,23 @@ This project is designed to help cybersecurity students and enthusiasts:
 
 Configure default deny/allow firewall rules.
 
-Allow/deny common ports like 22 (SSH), 80 (HTTP), 443 (HTTPS), and block others like 21 (FTP).
+- Allow/deny common ports like 22 (SSH), 80 (HTTP), 443 (HTTPS), and block others like 21 (FTP).
 
-Use ss to monitor listening services.
+- Use ss to monitor listening services.
 
-Validate ports using netcat.
+- Validate ports using netcat.
 
-Troubleshoot "connection refused" and other networking issues.
+- Troubleshoot "connection refused" and other networking issues.
 
 📌 Industry Relevance:
 
-In real-world SOC environments or DevSecOps teams, firewall misconfigurations can result in exposure to external threats or unnecessary service outages. By mastering tools like UFW, you'll be able to:
+Firewall misconfigurations can result in exposure to external threats or unnecessary service outages. By mastering tools like UFW, you'll be able to:
 
-Minimize attack surfaces.
+- Minimize attack surfaces.
 
-Enforce principle of least privilege.
+- Enforce principle of least privilege.
 
-Monitor and control traffic flows aligned with compliance frameworks (e.g., NIST, CIS).
+- Monitor and control traffic flows aligned with compliance frameworks (e.g., NIST, CIS).
 
 ---
 
