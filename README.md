@@ -78,7 +78,7 @@ sudo ufw default allow outgoing
 ```
 
 📸 **Screenshot:**
-![Default Policy](screenshots/Default-Policy-Set.png)
+![Default Policy](https://github.com/Shirmali/Firewall-Configuration/blob/main/Default-Policy-Set.png?raw=true)
 
 ---
 
