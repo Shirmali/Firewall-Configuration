@@ -1,8 +1,22 @@
 # 🔥 Basic Firewall Configuration & Traffic Filtering
 
-## 🛡️ Project Overview
+🛡️ Project Overview
 
-This project demonstrates the configuration of a host-based firewall using **UFW (Uncomplicated Firewall)** on a Debian-based Linux system. You'll learn how to set default policies, manage allow/deny rules, and validate behavior using tools like `nmap` and `netcat`. Understanding these principles is essential in cybersecurity to reduce the attack surface of a machine.
+In the realm of cybersecurity, maintaining a robust defense against unauthorized access and malicious attacks begins with a well-configured firewall. Firewalls act as gatekeepers—controlling which network traffic is allowed into or out of a system based on predetermined rules. In this project, we configure a host-based firewall using UFW (Uncomplicated Firewall) on a Linux machine, reinforcing one of the foundational security layers.
+
+This project is designed to help:
+
+Understand firewall principles, including inbound/outbound rules and traffic filtering.
+
+Configure UFW to protect a Linux host.
+
+Simulate real-world scenarios using basic network testing tools like nmap and netcat.
+
+Learn to troubleshoot why certain ports or services are blocked, open, or inaccessible.
+
+By the end of this project, you'll have practical experience:
+
+✅ Configuring default deny/allow policies✅ Allowing and denying specific ports and services✅ Validating firewall behavior with real testing✅ Interpreting firewall rule outputs✅ Troubleshooting common connection issues (e.g., "connection refused")
 
 ---
 
@@ -179,6 +193,4 @@ Firewall-Configuration/
 
 ---
 
-✅ **Next:** Upload your screenshots into the `screenshots/` folder and commit your README.
 
-Let me know if you need help generating or annotating any of the screenshots!
